@@ -1,1 +1,2 @@
 # Weather-API-Wrapper
+The Weather API Wrapper Project is designed to enhance weather data retrieval and improve performance through the use of caching mechanisms. This project integrates with an external weather data service, such as the Visual Crossing Weather API(free as well as easy to use) , and implements an in-memory caching solution using Redis to optimize response times and reduce the frequency of API calls.
