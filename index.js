@@ -6,7 +6,7 @@ const { getCachedValue, setCachedValue } = require('./cache');
 const app = express();
 const port = 3000;
 
-const apiKey = 'XVLSG6R8P98EU4CSJ4BYTDRSJ'; 
+const apiKey = 'XXXXXXXXXXXXXXXXXXXXX'; 
 const weatherService = new WeatherService(apiKey);
 
 app.get('/weather/:city', async (req, res) => {
